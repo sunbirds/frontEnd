@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    base(href="nestbas")
+    title= data.title
+    script(type='text/javascript' src="nest/js/config.js")
+    script(type='text/javascript').
+      buildWeb('#{data.module}',true)
+      //- build('demo')
+  body
+         

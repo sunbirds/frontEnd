@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    base(href="nestbas")
+    title= data.title2
+    script(type='text/javascript' src="nest/js/lib/basket.js")
+    script(type='text/javascript').
+      basket.require({ url: 'nest/js/lib/require.min.js',unique:1 })
+      .then(function(){
+          basket.require({ url: 'nest/js/lib/basket-loader.js', key: 'basket_loader',execute:true, unique:1 })
+          .then(function(){
+            require(['nest/js/config'],function(){
+              require(['demo']);
+            });
+          })
+      })
+
+  body
+         

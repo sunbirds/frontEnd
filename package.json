@@ -1,0 +1,28 @@
+{
+  "name": "Chris",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "express": "~4.13.3",
+    "gulp": "~3.9.0",
+    "gulp-autoprefixer": "~2.3.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-less": "~3.0.3",
+    "gulp-sass": "~2.0.4",
+    "gulp-rename": "~1.2.2",
+    "gulp-react": "~3.0.1",
+    "gulp-util": "~3.0.6",
+    "gulp-plumber": "~1.0.1",
+    "gulp-uglify": "~1.4.2",
+    "koa": "~1.1.2",
+    "koa-jade": "~2.0.2",
+    "koa-router": "~5.3.0",
+    "koa-static": "~1.5.2",
+    "react": "~0.14.3",
+    "jade": "~1.11.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "index.js"
+  }
+}
